@@ -4,4 +4,3 @@ CREATE TABLE blogful_articles (
     content TEXT,
     date_published TIMESTAMPTZ DEFAULT now() NOT NULL
 );
-DROP TABLE IF EXISTS blogful_articles;
